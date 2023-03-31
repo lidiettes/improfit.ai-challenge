@@ -1,19 +1,19 @@
-import { Route, Router } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
+import DicePage from "../pages/DicePage"
+import RandomPage from "../pages/RandomPage"
 import StartPage from "../pages/StartPage"
 
 
 const AppRouter = () => {
     return (
         <>
-            <Router>
-                <Route path="/" element={<StartPage /> }/>
+            <Routes>
+                <Route path="/" element={<StartPage />} />
+                <Route path="/random" element={<RandomPage />} />
+                <Route path="/dice" element={<DicePage />} />
 
-            </Router>
+            </Routes>
 
-   
-       
-            
-      
         </>
     )
 }
