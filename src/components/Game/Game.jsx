@@ -33,10 +33,12 @@ const Game = () => {
         <>
             <div>Game</div>
             <div className={styles.container}>
+                <div className='styles.containerImages'>
                 <img className={styles.square} src={image}/>
-                <div style={{ width: '5px', display: 'inline-block' }}></div>
                 <img className={styles.square} src={image2} />
-                <button onClick={rollDice}>Play</button>
+                </div>
+                <div style={{ width: '5px', display: 'inline-block' }}></div>
+                <button style={{ alignSelf: 'center' }} onClick={rollDice}>Play</button>
             </div>
         </>
     )
