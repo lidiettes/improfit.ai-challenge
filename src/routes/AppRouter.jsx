@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom"
-import DicePage from "../pages/DicePage"
-import RandomPage from "../pages/RandomPage"
-import StartPage from "../pages/StartPage"
+import DicePage from "../pages/PlayWithUsPage"
+import PlayWithUsPage from "../pages/PlayWithUsPage"
+import HomePage from "../pages/HomePage"
 
 
 const AppRouter = () => {
     return (
         <>
             <Routes>
-                <Route path="/" element={<StartPage />} />
-                <Route path="/random" element={<RandomPage />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/playwithus" element={<PlayWithUsPage />} />
                 <Route path="/dice" element={<DicePage />} />
 
             </Routes>

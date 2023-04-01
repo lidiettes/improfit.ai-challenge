@@ -21,7 +21,6 @@ const Game = () => {
     const [image2, setNewImage2] = useState(dice1);
     const [targetScore, setTargetScore] = useState(0);
     const [highScore, setHighScore] = useState(0);
-
     const [rollsLeft, setRollsLeft] = useState(3);
 
     const rollDice = () => {

@@ -4,18 +4,11 @@ import ButtonNext from '../components/ButtonNext/ButtonNext';
 
 const RandomPage = () => {
 
-    const [targetScore, setTargetScore] = useState(0);
-    const randomNumber = Math.floor(Math.random() * 12) + 1;
+
 
     return (
         <>
-            <div>{randomNumber}</div>
 
-
-
-            <Link to="/dice">
-                <ButtonNext />
-            </Link>
         </>
     )
 }

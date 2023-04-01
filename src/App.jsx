@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/Header/Header'
 import AppRouter from './routes/AppRouter'
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
 
   return (
     <>
+
+      <Header />
       <AppRouter />
     </>
   )

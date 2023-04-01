@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ButtonStart from '../components/ButtonStart/ButtonStart'
+import ButtonStart from '../components/Button/Button'
 
-const StartPage = () => {
+const HomePage = () => {
 
     return (
         <>
-            <Link to="/random">
+            <Link to="/homepage">
                 <ButtonStart />
             </Link>
         </>
     )
 }
 
-export default StartPage
+export default HomePage

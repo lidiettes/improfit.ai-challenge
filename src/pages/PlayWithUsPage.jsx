@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+
 import Game from '../components/Game/Game'
 
-const DicePage = () => {
+const PlayWithUsPage = () => {
 
 
 
@@ -14,4 +14,4 @@ const DicePage = () => {
     )
 }
 
-export default DicePage
+export default PlayWithUsPage
