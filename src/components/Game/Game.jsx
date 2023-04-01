@@ -62,8 +62,8 @@ const Game = () => {
 
     return (
         <>
-            <div>Game</div>
-            <div className={styles.container}>
+            
+            <div className={styles.container} id="playwithus">
                 <div className={styles.containerImages}>
                     <img className={styles.square} src={image} alt="" />
                     <img className={styles.square} src={image2} alt="" />

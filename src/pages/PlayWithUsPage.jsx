@@ -7,7 +7,7 @@ const PlayWithUsPage = () => {
 
     return (
         <>
-            <Game />
+           
 
         </>
 

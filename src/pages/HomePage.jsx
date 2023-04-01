@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
         <>
             <Link to="/homepage">
-                <ButtonStart />
+              
             </Link>
         </>
     )
