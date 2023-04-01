@@ -5,6 +5,7 @@ import dice3 from "../../assets/images/Dice3.png";
 import dice4 from "../../assets/images/Dice4.png";
 import dice5 from "../../assets/images/Dice5.png";
 import dice6 from "../../assets/images/Dice6.png";
+import Button from '../Button/Button';
 import styles from "./Game.module.css";
 
 const Game = () => {
@@ -78,13 +79,17 @@ const Game = () => {
                         Play again
                     </button>
                 )}
-                <button
+                {/* <button
                     style={{ alignSelf: 'center', marginLeft: '20px' }}
                     onClick={setNewTargetScore}
                     disabled={rollsLeft !== 3}
                 >
                     PLAY
-                </button>
+                </button> */}
+                <Button buttonText="Play" color="blue" onClick={setNewTargetScore}
+                    disabled={rollsLeft !== 3} />
+                
+
                 <div style={{ marginTop: '20px' }}>Target Score: {targetScore}</div>
                 <div>High Score: {highScore}</div>
                 {resultMessage && <div style={{ marginTop: '20px' }}>{resultMessage}</div>}
