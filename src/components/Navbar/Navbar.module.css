@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+    
+}
+
+.navbarItem {
+    margin-left: 20px;
+    color: white;
+}
+
+.navbarUl {
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+      
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        padding: 20px;
+        background-color: #fff;
+        z-index: 998;
+    }
+
+    .navbarItem {
+        margin-bottom: 10px;
+    }
+
+    .letsChatButton {
+        display: none;
+        background-color: #00bfff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+
+    
+
+
+   
+}

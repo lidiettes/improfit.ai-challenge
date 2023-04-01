@@ -9,7 +9,7 @@ const AppRouter = () => {
         <>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/playwithus" element={<PlayWithUsPage />} />
+         
             
 
             </Routes>
