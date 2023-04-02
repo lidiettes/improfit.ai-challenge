@@ -7,7 +7,7 @@ import dice5 from "../../assets/images/Dice5.png";
 import dice6 from "../../assets/images/Dice6.png";
 
 const useDiceGame = () => {
-    const diceImages = [dice1,dice2, dice3, dice4, dice5, dice6 ];
+    const diceImages = [dice1,dice2, dice3, dice4, dice5, dice6];
     const [image, setNewImage] = useState(dice1);
     const [image2, setNewImage2] = useState(dice1);
     const [targetScore, setTargetScore] = useState(0);
