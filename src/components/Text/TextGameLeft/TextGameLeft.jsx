@@ -9,11 +9,10 @@ const TextGameLeft = () => {
                 The game mechanics works according to this flow: </p>
             <ol>
                 <li>The game session start</li>
-                <li>A random number is generated based on the number of dices in the game. This is the score that the player has to beat. We will call this targetScore.</li>
-                <li>The player rolls the dices numberOfRolls times and gets a rollResult.</li>
+                <li>A random number is generated based on the number of dices in the game. This is the score that you have to beat. We will call this targetScore.</li>
+                <li>You can rolls the dices 3 times and gets a rollResult.</li>
                 <li>If rollResult is higher than high score for this session, set highScore for this session = rollResult.</li>
-                <li>Go back to step 3 until you rolled the dices numberOfRolls times.</li>
-                <li>The player wins if highScore is higher than targetScore.</li>
+                <li>You win if highScore is higher than targetScore. Are you ready? </li>
             </ol>
         </>
     )
