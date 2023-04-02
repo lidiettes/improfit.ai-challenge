@@ -9,9 +9,6 @@ const AppRouter = () => {
         <>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-         
-            
-
             </Routes>
 
         </>
