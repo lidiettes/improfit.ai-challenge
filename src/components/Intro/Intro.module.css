@@ -31,6 +31,12 @@ section {
 
 @media only screen and (max-width: 768px) {
 
+    .containerIntro {
+        width: 100vw;
+        height: 100vh;
+     
+    }
+
     .containerSection {
         flex-direction: column;
         margin: 0 5%;
