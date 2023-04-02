@@ -93,8 +93,8 @@ const Game = () => {
                         <h3>Want to try it again?</h3>
                     )}
 
-                    
-                    <div>High Score: {highScore}</div>
+
+                    <h2>High Score: {highScore}</h2>
 
                     <div className={styles.containerImages}>
                         <img className={styles.square} src={image} alt="" />
