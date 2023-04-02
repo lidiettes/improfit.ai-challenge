@@ -12,7 +12,7 @@ const TextGameLeft = () => {
                 <li>You can rolls the dices 3 times and gets a rollResult.</li>
                 <li>If rollResult is higher than high score for this session, set highScore for this session = rollResult.</li>
                 <li>You win if highScore is higher than targetScore. </li>
-                <li>Are you ready?</li>
+                <p>Are you ready?</p>
             </ol>
         </>
     )
