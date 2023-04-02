@@ -16,11 +16,7 @@
   -webkit-text-size-adjust: 100%; */
 }
 
-a {
-  font-weight: 500;
-  color: white;
-  text-decoration: inherit;
-}
+
 a:hover {
   color: #53a0f2;
 }

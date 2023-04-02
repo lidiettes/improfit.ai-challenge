@@ -1,5 +1,5 @@
 .footer {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -7,18 +7,17 @@
     padding: 30px;
     background-color: #0b0b0b;
     color: #fff;
-    height: 210px;
-
 }
 
 .logo {
-    width: 25%;
+    width: 100px;
+    margin-bottom: 20px;
 }
 
 .contact,
 .resources,
 .about {
-    width: 25%;
+    width: 100px;
 }
 
 .contact h3,
@@ -30,48 +29,45 @@
 }
 
 .social img {
-
     height: 30px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .signP {
-
-    width: 100vw;
-    font-size: 12px;
+    width: 100%;
+    font-size: 14px;
     color: grey;
     margin-bottom: 15px;
-    text-align: center
+    text-align: center;
 }
 
 .footerP {
     padding-top: 10px;
     color: white;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 @media only screen and (max-width: 768px) {
     .footer {
         flex-direction: column;
-        align-items: center;
+        align-items: right;
     }
 
     .logo {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        width: 60px;
+        height: 60px;
     }
 
     .social img {
         margin-right: 5px;
     }
     .logo {
-        width: 5%;
-     
-        margin-top: 140px;
+        width: 50%;
+        margin-top: 20px;
     }
     .signP {
-        width: 100%;
         font-size: 12px;
-        color: grey;
     }
 }

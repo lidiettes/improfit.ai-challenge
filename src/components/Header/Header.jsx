@@ -19,6 +19,7 @@ const Header = () => {
 
                 <li className={styles.navbarItem}>
                     <ScrollLink
+                        className='buttonHeader'
                         activeClass="active"
                         to="contact"
                         spy={true}
@@ -27,6 +28,7 @@ const Header = () => {
                         duration={500}
                     >
                         <Button
+                            small
                             buttonText="Let's chat"
                             color="blue"
                         />

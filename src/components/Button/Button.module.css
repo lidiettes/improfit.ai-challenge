@@ -17,9 +17,13 @@ button {
     transition: border-color 0.1s;
 }
 
-
-
 button:focus,
 button:focus-visible {
     outline: 1px;
+}
+
+
+.smallButton {
+    width: 75px;
+    padding: 0.5rem 1rem;
 }

@@ -14,10 +14,11 @@ const Button = (props) => {
     };
 
     const buttonStyle = props.color === 'green' ? stylesGreen : stylesBlue;
+    const buttonClass = props.small ? styles.smallButton : '';
 
     return (
         <button 
-        className={styles.letsChatButton} 
+        className={`${styles.letsChatButton} ${buttonClass}`} 
         style={buttonStyle}
         onClick={props.onClick}
         >{props.buttonText}</button>

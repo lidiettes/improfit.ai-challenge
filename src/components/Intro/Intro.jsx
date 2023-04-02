@@ -28,6 +28,7 @@ const Intro = () => {
                         <Button
                             buttonText="Let's chat"
                             color="green"
+    
                         />
                     </Link>
 

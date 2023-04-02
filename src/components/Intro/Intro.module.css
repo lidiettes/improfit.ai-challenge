@@ -30,27 +30,30 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .containerSection {
         flex-direction: column;
         margin: 0 5%;
         font-size: 8px;
-        
+
     }
 
     .imgIntro {
         width: 60%;
-      margin-left: 80px;
-        
+        margin-left: 80px;
+
     }
+
     .introH1 {
         font-size: 25px;
-    
+
     }
-    
+
     .introH3 {
         font-size: 12px;
-     
+
         line-height: 1.3;
     }
+
+
 }
