@@ -1,33 +1,56 @@
-.containerIntro{
+.containerIntro {
     width: 100vw;
     height: 90vh;
-  
-
 }
 
-.containerSection{
+.containerSection {
     display: flex;
-  flex-wrap: wrap;
-  margin: 0 10%;
+    flex-wrap: wrap;
+    margin: 0 10%;
 }
 
 section {
     flex: 1;
     padding: 10px;
-    
-  }
-
-.imgIntro{
-    width: 80%;
 }
 
-.introH1{
-font-size: 35px;
-color: white;
+.imgIntro {
+    width: 70%;
 }
-.introH3{
+
+.introH1 {
+    font-size: 35px;
+    color: white;
+}
+
+.introH3 {
     font-size: 16px;
     color: white;
     line-height: 1.3;
+}
+
+@media only screen and (max-width: 768px) {
     
+    .containerSection {
+        flex-direction: column;
+        margin: 0 5%;
+        font-size: 8px;
+        
+    }
+
+    .imgIntro {
+        width: 60%;
+      margin-left: 80px;
+        
+    }
+    .introH1 {
+        font-size: 25px;
+    
+    }
+    
+    .introH3 {
+        font-size: 12px;
+     
+        line-height: 1.3;
+    }
 }

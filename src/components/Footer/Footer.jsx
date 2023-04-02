@@ -4,6 +4,7 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
     return (
+        <>
         <footer className={styles.footer}>
             <div className={styles.logo}>
                 <img src="https://uploads-ssl.webflow.com/63230b1c0368dee8bb6d4bde/6334a70ce20e008158febfad_improfit-logo.png" alt="Improfit logo" />
@@ -27,10 +28,15 @@ const Footer = () => {
                 <p className={styles.footerP}>Privacy</p>
                 <p className={styles.footerP}>Legal Notice</p>
             </div>
-            <div className={styles.sign}>
             <p className={styles.signP} >Lidia Frías © 2023</p>
-            </div>
+           
+            
+           
         </footer>
+      
+        
+    
+        </>
     );
 };
 

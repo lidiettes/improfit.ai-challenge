@@ -58,6 +58,7 @@ align-items: center;
 }
 .targetDiv{
     margin: 20px;
+  
 }
 
 .resultMessage{
@@ -71,14 +72,23 @@ align-items: center;
 @media (max-width: 768px) {
     .containerGame {
         padding: 0.5rem;
+        
+        
     }
 
     .containerLeft,
     .containerRight {
         width: 100%;
+        font-size: 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
     }
 
     .containerImages {
         flex-direction: column;
+    }
+    .targetDiv{
+        margin: 40px;
     }
 }

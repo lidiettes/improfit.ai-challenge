@@ -72,16 +72,16 @@ const Game = () => {
                         The game mechanics works according to this flow: </p>
                     <ol>
                         <li>The game session start</li>
-                        <li>A random number is generated based on the number of dices in the game. This is the score that the player has to beat. We will call this targetScore</li>
-                        <li>The player rolls the dices numberOfRolls times and gets a rollResult</li>
-                        <li>If rollResult is higher than high score for this session, set highScore for this session = rollResult</li>
-                        <li>Go back to step 3 until you rolled the dices numberOfRolls times</li>
-                        <li>The player wins if highScore is higher than targetScore</li>
+                        <li>A random number is generated based on the number of dices in the game. This is the score that the player has to beat. We will call this targetScore.</li>
+                        <li>The player rolls the dices numberOfRolls times and gets a rollResult.</li>
+                        <li>If rollResult is higher than high score for this session, set highScore for this session = rollResult.</li>
+                        <li>Go back to step 3 until you rolled the dices numberOfRolls times.</li>
+                        <li>The player wins if highScore is higher than targetScore.</li>
                     </ol>
                     <div className={styles.containerPlay}>
                         <Button buttonText="Play" color="blue" onClick={setNewTargetScore}
                             disabled={rollsLeft !== 3} />
-                        <div className={styles.targetDiv}>Target Score: {targetScore}</div>
+                        
                     </div>
 
                 </div>
@@ -109,7 +109,7 @@ const Game = () => {
 
                         />
                     )}
-                    
+                    <div className={styles.targetDiv}>Target Score: {targetScore}</div>
                     {/* <button
                     style={{ alignSelf: 'center', marginLeft: '20px' }}
                     onClick={setNewTargetScore}
