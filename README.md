@@ -29,7 +29,8 @@ This task involves developing a Dice Roller game as a reusable React component. 
 
 # Challenge 🚀
 ---
-Rolling the dice
+
+
 You are tasked with developing a simple Dice Roller application. This game’s rules are very straightforward:
 
 There are a number of configurable dices in the game, called numberOfDices The visual output of the roll can be plain numbers (no need to draw the dices on the screen, but if you want to, you are welcome!) The game mechanics works according to this flow:
