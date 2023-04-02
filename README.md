@@ -6,8 +6,6 @@
 <img src="https://user-images.githubusercontent.com/96661791/229362714-eaa1dc7b-95af-4727-b4e4-ccb5ab642eea.png" alt="Imagen de cabecera" width="100%">
 
 
-
-
 # Table of contents 💥
 ---
 
@@ -16,6 +14,7 @@
 - [User Guide](#user-guide)
 - [Installation guide](#installation-guide)
 - [Dependencies](#dependencies)
+- [Extra](#extra)
 - [Limitations](#limitations)
 - [Future implementations](#future-implementations)
 - [Conclusion](#conclusion)
@@ -25,7 +24,7 @@
 
 # Description 📋
 ---
-This mower project allows you to simulate the movement of one or more mowers on a given field. The mowers can move forward, turn left or right without moving, and each has a starting position and orientation on the field.
+This task involves developing a Dice Roller game as a reusable React component. The game mechanics involve generating a target score and allowing the player to roll the dice to beat the target score. The application should have its own view to display the game and show relevant information during gameplay.
 
 
 # Challenge 🚀
@@ -101,6 +100,9 @@ npm run dev
 
 **react-router-dom**: 
 
+# Extra
+---
+I have taken the liberty of including the game on a page similar to Improfit's. I hope you like it.
 
 # Limitations 📌
 ---
