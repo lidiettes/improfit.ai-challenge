@@ -13,8 +13,8 @@ const Footer = () => {
                 <h3>CONTACT US</h3>
                 <p className={styles.footerP}>info@improfit.ai</p>
                 <div className={styles.social}>
-                    <Link to="https://www.linkedin.com/in/lidiafrias/"><img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" alt="LinkedIn logo" /></Link>
-                    <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="Twitter logo" />
+                    <Link to="https://www.linkedin.com/company/improfit-ai/"><img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" alt="LinkedIn logo" /></Link>
+                    <img to="https://twitter.com/ImprofitAiv"src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="Twitter logo" />
                 </div>
             </div>
             <div className={styles.resources}>
