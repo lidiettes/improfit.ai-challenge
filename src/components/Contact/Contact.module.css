@@ -23,7 +23,7 @@ input,
 textarea {
     display: block;
     width: 450px;
-    
+
     height: 18px;
     padding: 8px 12px;
     margin-bottom: 10px;
@@ -95,10 +95,20 @@ button[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 768px) {
+
+
+    .containerContact {
+        max-width: 100%;
+        padding: 10px;
+        min-height: 80vh; 
+    }
+
+
     .container {
         max-width: 100%;
         padding: 10px;
-     
+        
+        
     }
 
     input,
@@ -118,8 +128,8 @@ button[type="submit"]:hover {
         padding: 0.5rem 1rem;
     }
 
-  
- 
+
+
 
     .contactP {
         margin-top: 10px;
