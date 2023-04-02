@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                 <h3>CONTACT US</h3>
                 <p className={styles.footerP}>info@improfit.ai</p>
                 <div className={styles.social}>
-                    <img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" alt="LinkedIn logo" />
+                    <Link to="https://www.linkedin.com/in/lidiafrias/"><img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" alt="LinkedIn logo" /></Link>
                     <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="Twitter logo" />
                 </div>
             </div>

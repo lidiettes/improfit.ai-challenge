@@ -15,11 +15,7 @@ const Intro = () => {
             <div className={styles.containerSection}>
                 <section>
                     <h1 className={styles.introH1}>Evaluate and quantify physical AI, and now with this dice game, mental as well. </h1>
-                    <h3 className={styles.introH3}>Aqui va un texto diciendo que improfit esta muy bien, pero mejor con mi jueguecito
-                        Aqui va un texto diciendo que improfit esta muy bien, pero mejor con mi jueguecito
-                        Aqui va un texto diciendo que improfit esta muy bien, pero mejor con mi jueguecito
-                        Aqui va un texto diciendo que improfit esta muy bien, pero mejor con mi jueguecito
-                        Aqui va un texto diciendo que improfit esta muy bien, pero mejor con mi jueguecito</h3>
+                    <h3 className={styles.introH3}>We are a B2B2C platform that uses computer vision and artificial intelligence to evaluate and quantify physical exercises in real-time, with a musculoskeletal approach. Our goal is to improve people's lives through training and rehabilitation. And what's more, we like to have fun with dice games!</h3>
 
                     <Link
                         activeClass="active"
