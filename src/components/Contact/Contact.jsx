@@ -73,21 +73,21 @@ const Contact = () => {
                         {/* <button type="submit">Submit</button> */}
                     </div>
                 </form>
-                <p>
+                <p className={styles.contactP}>
                     Wellfit Tec, S.L. (Improfit AI) informs you that the personal data you
                     provide by filling out this form will be processed by Wellfit Tec, S.L.
                     (Improfit AI) as responsible for this website.
                 </p>
-                <p>
+                <p className={styles.contactP}>
                     The purpose of the collection and processing of personal data we request
                     is to manage the request you make in this contact form. Legitimation:
                     Consent of the interested party.
                 </p>
-                <p>
+                <p className={styles.contactP}>
                     As a data subject, we inform you that the data you provide will be
                     processed by Webflow. See Webflow data management information.
                 </p>
-                <p>
+                <p className={styles.contactP}>
                     Failure to enter the personal data that appear on the form as mandatory
                     will result in us not being able to process your request.
                 </p>

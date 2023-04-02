@@ -1,12 +1,38 @@
-.container {
+.containerGame {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+   
     align-items: center;
-    justify-content: center; /* Centra verticalmente */
+    justify-content: center;
+    /* Centra verticalmente */
     background-color: white;
     padding: 1rem;
+  
+}
+
+.containerLeft {
+    margin-left: 10%;
+    width: 50%;
+    margin-bottom: 1rem;
+    display: inline-block;
+    line-height: 27px;
+}
+
+.containerRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 10%;
+}
+
+.containerImages {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
 }
 
 .square {
@@ -18,7 +44,41 @@
     padding: 1rem 1rem;
 }
 
-.containerImages {
+.containerButtons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+.containerPlay{
+display: flex;
+align-items: center;
+}
+.targetDiv{
+    margin: 20px;
+}
+
+.resultMessage{
+    margin-top: 1rem;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00bfff;
+}
+
+@media (max-width: 768px) {
+    .containerGame {
+        padding: 0.5rem;
+    }
+
+    .containerLeft,
+    .containerRight {
+        width: 100%;
+    }
+
+    .containerImages {
+        flex-direction: column;
+    }
 }

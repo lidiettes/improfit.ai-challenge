@@ -46,55 +46,81 @@ const Game = () => {
 
     const playGame = () => {
         setHighScore(0);
-
         setRollsLeft(3);
+        setNewTargetScore();
         rollDice();
     };
 
     let resultMessage;
     if (targetScore > 0 && rollsLeft === 0) {
         if (highScore >= targetScore) {
-            resultMessage = "You win!";
+            resultMessage = "Congratulations, you win!";
         } else {
-            resultMessage = "You lose!";
+            resultMessage = "Sorry, you lose!" ;
         }
     }
 
     return (
         <>
-            
-            <div className={styles.container} id="playwithus">
-                <div className={styles.containerImages}>
-                    <img className={styles.square} src={image} alt="" />
-                    <img className={styles.square} src={image2} alt="" />
+
+            <div className={styles.containerGame} id="playwithus">
+                <div className={styles.containerLeft}>
+
+                    <h2>Push your brand towards new challenges, for example, this dice game.</h2>
+                    <p> This game’s rules are very straightforward:
+                        There are a number of configurable dices in the game, called numberOfDices.
+                        The game mechanics works according to this flow: </p>
+                    <ol>
+                        <li>The game session start</li>
+                        <li>A random number is generated based on the number of dices in the game. This is the score that the player has to beat. We will call this targetScore</li>
+                        <li>The player rolls the dices numberOfRolls times and gets a rollResult</li>
+                        <li>If rollResult is higher than high score for this session, set highScore for this session = rollResult</li>
+                        <li>Go back to step 3 until you rolled the dices numberOfRolls times</li>
+                        <li>The player wins if highScore is higher than targetScore</li>
+                    </ol>
+                    <div className={styles.containerPlay}>
+                        <Button buttonText="Play" color="blue" onClick={setNewTargetScore}
+                            disabled={rollsLeft !== 3} />
+                        <div className={styles.targetDiv}>Target Score: {targetScore}</div>
+                    </div>
+
                 </div>
-                <div style={{ width: '5px', display: 'inline-block' }}></div>
-                {rollsLeft > 0 && (
-                    <button style={{ alignSelf: 'center' }} onClick={rollDice}>
-                        Roll the dice ({rollsLeft} left)
-                    </button>
-                )}
-                {rollsLeft === 0 && (
-                    <button style={{ alignSelf: 'center' }} onClick={playGame}>
-                        Play again
-                    </button>
-                )}
-                {/* <button
+
+                <div className={styles.containerRight}>
+
+                    {resultMessage && <div className={styles.resultMessage} >{resultMessage}</div>}
+                    {rollsLeft === 0 && (
+                        <h3>Want to try it again?</h3>
+                    )}
+
+                    
+                    <div>High Score: {highScore}</div>
+
+                    <div className={styles.containerImages}>
+                        <img className={styles.square} src={image} alt="" />
+                        <img className={styles.square} src={image2} alt="" />
+                    </div>
+                    <div className={styles.containerButtons}></div>
+                    {rollsLeft > 0 && (
+                        <Button
+                            onClick={rollDice}
+                            buttonText={`Roll the dice (${rollsLeft} left)`}
+                            color="green"
+
+                        />
+                    )}
+                    
+                    {/* <button
                     style={{ alignSelf: 'center', marginLeft: '20px' }}
                     onClick={setNewTargetScore}
                     disabled={rollsLeft !== 3}
                 >
                     PLAY
                 </button> */}
-                <Button buttonText="Play" color="blue" onClick={setNewTargetScore}
-                    disabled={rollsLeft !== 3} />
-                
 
-                <div style={{ marginTop: '20px' }}>Target Score: {targetScore}</div>
-                <div>High Score: {highScore}</div>
-                {resultMessage && <div style={{ marginTop: '20px' }}>{resultMessage}</div>}
-
+                </div>
             </div>
+
         </>
     )
 }
