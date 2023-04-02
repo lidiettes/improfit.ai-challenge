@@ -98,6 +98,7 @@ button[type="submit"]:hover {
     .container {
         max-width: 100%;
         padding: 10px;
+     
     }
 
     input,
@@ -121,10 +122,10 @@ button[type="submit"]:hover {
  
 
     .contactP {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 12px;
 
-        gap: 15px;
+        gap: 10px;
         justify-content: center;
         margin-left: 20px;
         margin-right: 20px;

@@ -96,4 +96,7 @@
     .targetDiv {
         margin: 40px;
     }
+    .resultMessage {
+        font-size: 1rem;
+    }
 }
