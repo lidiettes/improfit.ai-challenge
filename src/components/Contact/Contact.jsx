@@ -61,7 +61,7 @@ const Contact = () => {
                             onChange={(e) => setChecked(e.target.checked)}
                             required
                         />
-                        <label className={styles.em} htmlFor="dataConditions">
+                        <label className={styles.labelCheck} htmlFor="dataConditions">
                             Check here to indicate that you have read and agree to our Data
                             Conditions
                         </label>
@@ -73,6 +73,7 @@ const Contact = () => {
                         {/* <button type="submit">Submit</button> */}
                     </div>
                 </form>
+                <div className={styles.divContactP}>
                 <p className={styles.contactP}>
                     Wellfit Tec, S.L. (Improfit AI) informs you that the personal data you
                     provide by filling out this form will be processed by Wellfit Tec, S.L.
@@ -91,6 +92,7 @@ const Contact = () => {
                     Failure to enter the personal data that appear on the form as mandatory
                     will result in us not being able to process your request.
                 </p>
+                </div>
 
 
 

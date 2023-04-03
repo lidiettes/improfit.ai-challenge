@@ -1,14 +1,16 @@
+.container {
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+}
+
 .containerContact {
     width: 100vw;
     height: 100vh;
     background-color: rgb(254, 252, 252);
 }
 
-.container {
-    padding: 30px;
-    max-width: 500px;
-    margin: auto;
-}
+
 
 form {
     display: flex;
@@ -23,14 +25,13 @@ input,
 textarea {
     display: block;
     width: 450px;
-
     height: 18px;
     padding: 8px 12px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-
     background-color: #fff;
     border: 1px solid #ccc;
 }
@@ -48,41 +49,41 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #666;
-
 }
 
 .formH2 {
-
     font-size: 1.5rem;
-
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
     text-align: center;
-
 }
 
 .formH3 {
     text-align: center;
     font-size: 1rem;
 }
+.divContactP{
+    margin-top: 40px;
+}
 
 .contactP {
     margin-top: 10px;
     color: #999;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 15px;
 }
 
-.em {
+.labelCheck {
     font-style: italic;
     font-size: 12px;
-    line-height: 1rem
+    line-height: 1rem;
+    margin-left: 10px;
 }
 
 .check {
 
-
+    display: flex;
     align-items: center;
     margin-bottom: 15px;
 
@@ -153,7 +154,7 @@ button[type="submit"]:hover {
         vertical-align: middle;
     }
 
-    .em {
+    .labelCheck {
         flex-grow: 1;
         font-style: italic;
         font-size: 12px;
