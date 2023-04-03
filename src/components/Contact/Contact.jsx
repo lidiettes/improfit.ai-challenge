@@ -94,11 +94,6 @@ const Contact = () => {
                 </p>
                 </div>
 
-
-
-
-
-
             </div>
         </div>
     )
