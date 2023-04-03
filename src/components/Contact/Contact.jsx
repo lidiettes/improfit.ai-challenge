@@ -86,7 +86,7 @@ const Contact = () => {
                 </p>
                 <p className={styles.contactP}>
                     As a data subject, we inform you that the data you provide will be
-                    processed by Webflow. See Webflow data management information.
+                    processed by Webflow. 
                 </p>
                 <p className={styles.contactP}>
                     Failure to enter the personal data that appear on the form as mandatory
