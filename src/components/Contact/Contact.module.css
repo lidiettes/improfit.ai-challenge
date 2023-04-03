@@ -131,6 +131,7 @@ button[type="submit"]:hover {
     }
     .divContactP{
         padding: 5px;
+        margin: 0 10px;
     }
     .contactP {
         font-size: 10px;
