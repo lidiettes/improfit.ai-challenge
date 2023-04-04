@@ -15,7 +15,6 @@
 - [Installation guide](#installation-guide)
 - [Dependencies](#dependencies)
 - [Extra](#extra)
-- [Limitations](#limitations)
 - [Future implementations](#future-implementations)
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
@@ -87,32 +86,27 @@ npm run dev
   npm run dev
   ```
   
-4. If you want check the tests:
-  
-  ```
-  npm test
-  ```
 
 # Dependencies 🛠️
   
-**vite** : A utility that automatically restarts the Node.js application when changes are detected.
+**vite** : It is a build tool and development server that is designed to provide fast, efficient, and streamlined development experience for modern web applications using technologies such as React, Vue.js, and TypeScript. It achieves this by using a lightning-fast development server that leverages browser native ES modules to provide instantaneous updates, and a build process that generates highly optimized, production-ready bundles.
   
-**react-scroll**: It is used for unit testing of applications and libraries.
+**react-scroll**: It is a library that provides smooth scrolling functionality for React applications, allowing users to smoothly scroll to a specific element or position within a page.
 
-**react-router-dom**: 
+**react-router-dom**: It is a library that enables declarative routing for React applications.
 
 # Extra
 ---
-I have taken the liberty of including the game on a page similar to Improfit's. I hope you like it.
+- I have taken the liberty of including the game on a page similar to Improfit's. I hope you like it.
 
-# Limitations 📌
----
-Option to control the number of dice.
- 
+- Responsive
+
 # Future implementations 💪
 ---
 
 1. Use TypeScript to improve scalability, code equality and productivity
+2. Option to control the number of dice.
+3. Testing, is a software testing technique that involves testing individual units, components, or modules of a software application in isolation from the rest of the system. 
  
 # Conclusion 🍎
 ---
