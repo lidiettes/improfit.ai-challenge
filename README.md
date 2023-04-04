@@ -97,6 +97,8 @@ npm run dev
 
 # Extra
 ---
+- Deploy en Netlify https://rollingthediceimprofit.netlify.app/
+
 - I have taken the liberty of including the game on a page similar to Improfit's. I hope you like it.
 
 - Responsive
