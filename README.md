@@ -15,6 +15,8 @@
 - [Installation guide](#installation-guide)
 - [Dependencies](#dependencies)
 - [Extra](#extra)
+- [Views Mobile](#views-mobile)
+- [Views Desktop](#views-desktop)
 - [Future implementations](#future-implementations)
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
@@ -102,6 +104,28 @@ npm run dev
 - I have taken the liberty of including the game on a page similar to Improfit's. I hope you like it.
 
 - Responsive
+
+# Views mobile
+---
+<img src="https://user-images.githubusercontent.com/96661791/230720584-8763ba98-bfd2-4176-b1cc-40b388e29a29.png" alt="Imagen de cabecera" width="20%">
+
+<img src="https://user-images.githubusercontent.com/96661791/230720609-821b7b94-5620-468e-b314-26058a81a428.png" alt="Imagen de cabecera" width="20%">
+
+<img src="https://user-images.githubusercontent.com/96661791/230720635-2305bf0b-9ae7-4587-b791-b9dc6017d8e7.png" alt="Imagen de cabecera" width="20%">
+
+<img src="https://user-images.githubusercontent.com/96661791/230720652-4cdbdb0e-fde3-4369-ac9e-f6df04d35ace.png" alt="Imagen de cabecera" width="20%">
+
+# Views desktop
+
+<img src="https://user-images.githubusercontent.com/96661791/230720874-95176c65-cd44-472d-9a7a-247c14d1e354.png" alt="Imagen de cabecera" width="70%">
+
+<img src="https://user-images.githubusercontent.com/96661791/230720686-fba4d8ee-1427-42e4-bde9-64e154f8b4ca.png" alt="Imagen de cabecera" width="70%">
+
+<img src="https://user-images.githubusercontent.com/96661791/230720685-73e6aae1-a2eb-4038-8ac9-0d9a2d2d0195.png" alt="Imagen de cabecera" width="70%">
+
+<img src="https://user-images.githubusercontent.com/96661791/230720905-bf093c55-5e34-4804-87cc-6068c3b410de.png" alt="Imagen de cabecera" width="70%">
+
+
 
 # Future implementations 💪
 ---
